@@ -1,0 +1,78 @@
+
+ #sketch-container{
+  width: 100%;
+  height: 100%;
+} 
+
+h2{
+  text-align:center;
+  font-size: 300%;
+  margin-left: 0px; 
+  /* padding: 200px;  */
+}
+
+.author {
+  display: flex; 
+  margin-left: 710px; 
+}
+.author p {
+  display: inline-block; 
+  margin-right: 10px; /* 为每个 <p> 元素设置右外边距 */
+}
+
+.line1 {
+  display: flex; 
+  margin-left: 610px; 
+}
+.line1 p {
+  display: inline-block; 
+  margin-right: 10px; /* 为每个 <p> 元素设置右外边距 */
+}
+
+.line2 {
+  display: flex; 
+  margin-left: 610px; 
+}
+.line2 p {
+  display: inline-block; 
+  margin-right: 10px; /* 为每个 <p> 元素设置右外边距 */
+}
+
+.line3 {
+  display: flex; 
+  margin-left: 610px; 
+}
+.line3 p {
+  display: inline-block; 
+  margin-right: 10px; /* 为每个 <p> 元素设置右外边距 */
+}
+
+.line4 {
+  display: flex; 
+  margin-left: 610px; 
+}
+.line4 p {
+  display: inline-block; 
+  margin-right: 10px; /* 为每个 <p> 元素设置右外边距 */
+}
+
+
+#rectangle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* align-items: center; */
+  width:800px;
+  height:670px;
+  background:rgba(255, 255, 255, 0.674);
+}
+
+@font-face {
+  font-family: 'MyFont'; /* 设置字体名称 */
+  src: url('fonts/MyFont.ttf') format('truetype'); /* 设置字体路径和文件类型 */
+  /* 添加其他字体属性，例如字体粗细、倾斜、字号等 */
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+}
