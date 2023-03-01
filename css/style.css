@@ -8,7 +8,7 @@ h2{
   text-align:center;
   font-size: 300%;
   margin-left: 0px; 
-  /* padding: 200px;  */
+  font-family: 'MyFont', sans-serif;
 }
 
 .author {
@@ -16,8 +16,9 @@ h2{
   margin-left: 710px; 
 }
 .author p {
+  font-family: 'MyFont', sans-serif;
   display: inline-block; 
-  margin-right: 10px; /* 为每个 <p> 元素设置右外边距 */
+  margin-right: 10px; 
 }
 
 .line1 {
@@ -26,7 +27,8 @@ h2{
 }
 .line1 p {
   display: inline-block; 
-  margin-right: 10px; /* 为每个 <p> 元素设置右外边距 */
+  font-family: 'MyFont', sans-serif;
+  margin-right: 10px; 
 }
 
 .line2 {
@@ -35,7 +37,8 @@ h2{
 }
 .line2 p {
   display: inline-block; 
-  margin-right: 10px; /* 为每个 <p> 元素设置右外边距 */
+  font-family: 'MyFont', sans-serif;
+  margin-right: 10px; 
 }
 
 .line3 {
@@ -44,7 +47,8 @@ h2{
 }
 .line3 p {
   display: inline-block; 
-  margin-right: 10px; /* 为每个 <p> 元素设置右外边距 */
+  font-family: 'MyFont', sans-serif;
+  margin-right: 10px; 
 }
 
 .line4 {
@@ -53,12 +57,14 @@ h2{
 }
 .line4 p {
   display: inline-block; 
-  margin-right: 10px; /* 为每个 <p> 元素设置右外边距 */
+  font-family: 'MyFont', sans-serif; 
+  margin-right: 10px;
 }
 
 
 #rectangle{
   position: absolute;
+  z-index: -1;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -69,9 +75,8 @@ h2{
 }
 
 @font-face {
-  font-family: 'MyFont'; /* 设置字体名称 */
-  src: url('fonts/MyFont.ttf') format('truetype'); /* 设置字体路径和文件类型 */
-  /* 添加其他字体属性，例如字体粗细、倾斜、字号等 */
+  font-family: 'MyFont'; 
+  src: url('fonts/HanChengWangShiLiXingShu.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
