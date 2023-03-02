@@ -8,10 +8,11 @@ h2{
   text-align:center;
   font-size: 350%;
   margin-bottom: 15px; 
-  font-family:MyFont;
+  font-family:"MyFont";
 }
 p{
   font-size: 200%;
+  font-family: "MyFont"; 
 }
 
 .author {
@@ -19,7 +20,7 @@ p{
   margin-left: 700px; 
 }
 .author p {
-  font-family: LiSu;
+  font-family: "MyFont";
   font-size: 100%;
   display: inline-block; 
   margin-right: 10px; 
@@ -31,7 +32,7 @@ p{
 }
 .line1 p {
   display: inline-block; 
-  font-family: LiSu;
+  font-family: "MyFont";
   margin-right: 10px; 
 }
 
