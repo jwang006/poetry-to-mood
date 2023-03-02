@@ -8,11 +8,12 @@ h2{
   text-align:center;
   font-size: 350%;
   margin-bottom: 15px; 
-  font-family: LiSu;
+  font-family: 'MyFont';
 }
 p{
   font-size: 200%;
 }
+
 .author {
   display: flex; 
   margin-left: 700px; 
@@ -34,36 +35,49 @@ p{
   margin-right: 10px; 
 }
 
-.line2 {
+#jian {
   display: flex; 
-  margin-left: 560px; 
+  margin-left: 87px; 
 }
-.line2 p {
-  display: inline-block; 
-  font-family: LiSu;
-  margin-right: 10px; 
+.libie-card {
+   /* background-color: wheat;  */
+  background-color: transparent; 
+  width: 100px;
+  margin-right: -90px; 
+  margin-left: -10px
+  /* height: 300px; */ 
+  /* perspective: 1000px; */
+}
+.libie-card-inner {
+  position: relative;
+  /* width: 100%;
+  height: 100%; */
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.libie-card:hover .libie-card-inner {
+  transform: rotateY(180deg);
+}
+.libie-front, .libie-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+} 
+.libie-front{
+  color:rgba(36, 72, 113);
+  /* background-color:rgba(36, 72, 113, 0.674); */
+}
+.libie-back {
+  color:rgba(36, 72, 113);
+  font-size: 90%;
+  margin-bottom: -150px; 
+  transform: rotateY(180deg);
 }
 
-.line3 {
-  display: flex; 
-  margin-left: 560px; 
-}
-.line3 p {
-  display: inline-block; 
-  font-family: LiSu;
-  margin-right: 10px; 
-}
-
-.line4 {
-  display: flex; 
-  margin-left: 560px; 
-  
-}
-.line4 p {
-  display: inline-block; 
-  font-family: LiSu; 
-  margin-right: 10px;
-}
 
 
 #rectangle{
@@ -80,7 +94,7 @@ p{
 
 @font-face {
   font-family: 'MyFont'; 
-  src: url('fonts/HanChengWangShiLiXingShu.ttf') format('truetype');
+  src: url("fonts/HanChengWangShiLiXingShu.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
   /* font-size: 16px; */
