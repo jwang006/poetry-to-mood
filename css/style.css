@@ -8,7 +8,7 @@ h2{
   text-align:center;
   font-size: 350%;
   margin-bottom: 15px; 
-  font-family: 'MyFont';
+  font-family: MyFont;
 }
 p{
   font-size: 200%;
@@ -39,6 +39,13 @@ p{
   display: flex; 
   margin-left: 87px; 
 }
+#heng {
+  color: #7c1823;
+}
+#ku {
+  color: #5e616d;
+}
+
 .libie-card {
    /* background-color: wheat;  */
   background-color: transparent; 
@@ -86,16 +93,15 @@ p{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
   /* align-items: center; */
-  width:800px;
-  height:670px;
+  width:1000px;
+  height:800px;
   background:rgba(255, 255, 255, 0.674);
 }
 
 @font-face {
-  font-family: 'MyFont'; 
-  src: url("fonts/HanChengWangShiLiXingShu.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  /* font-size: 16px; */
+  font-family: MyFont; 
+  src: url(onts/HanChengWangShiLiXingShu.ttf);
+
 }
