@@ -23,7 +23,8 @@ p{
 /* make each 5 charactors in same line */
 .line1 {
   display: flex; 
-  margin-left: 560px; 
+  margin-left: 460px; 
+  
 }
 .line1 p {
   display: inline-block; 
